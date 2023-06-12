@@ -3,6 +3,10 @@ from tkinter import filedialog
 import os
 from main import load_settings_from_json, save_settings_to_json
 
+# todo: 
+# - implement threading on button actions (stop the gui freezing while execution)
+# - implement an escape button to cancel execution of program
+
 class SensitivitySettingsApp(tk.Tk):
     def __init__(self):
         super().__init__()
@@ -48,10 +52,12 @@ class SensitivitySettingsApp(tk.Tk):
             self.set_button_state.set("disabled")
 
     def set_settings(self):
-        save_settings_to_json(self.settings_file.get(), self.human_movement.get())
+        load_settings_from_json(self.settings_file.get(), self.human_movement.get())
+        
 
     def get_settings(self):
-        load_settings_from_json(self.settings_file.get(), self.human_movement.get())
+        save_settings_to_json(self.settings_file.get(), self.human_movement.get())
+        
 
 if __name__ == "__main__":
     app = SensitivitySettingsApp()

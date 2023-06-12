@@ -307,17 +307,18 @@ def set_sensitivity_data(data, human_movement=True):
     mgr.set_hero_sensitivities(data)
     
 def save_settings_to_json(filename, human_movement):
+    time.sleep(3)
     data = get_sensitivity_data(human_movement)
     with open(filename, "w+") as fn:
         json.dump(data, fn)
 
 def load_settings_from_json(filename, human_movement):
+    time.sleep(3)
     with open(filename, "r") as fn:
         data = json.load(fn)
     set_sensitivity_data(data, human_movement)
 
 if __name__ == "__main__":
-    # todo - implement a GUI
-    # currently you need to comment and uncomment as necessary
+    # comment as necessary
     save_settings_to_json("settings.json", False)
     # load_settings_from_json("settings.json", False)
