@@ -83,7 +83,7 @@ class ScreenController:
 
         for i, (x, y) in enumerate(curve):
             # todo - tinker with how we travel along the curve
-            if i % random.randint(1, 3) == 0: 
+            if i % random.randint(1, 10) == 0: 
                 pag.moveTo(x, y, duration=random.uniform(0.005, 0.05))
 
     def get_text_from_position(self, pos, preprocess=False):
@@ -307,13 +307,11 @@ def set_sensitivity_data(data, human_movement=True):
     mgr.set_hero_sensitivities(data)
     
 def save_settings_to_json(filename, human_movement):
-    time.sleep(3)
     data = get_sensitivity_data(human_movement)
     with open(filename, "w+") as fn:
         json.dump(data, fn)
 
 def load_settings_from_json(filename, human_movement):
-    time.sleep(3)
     with open(filename, "r") as fn:
         data = json.load(fn)
     set_sensitivity_data(data, human_movement)

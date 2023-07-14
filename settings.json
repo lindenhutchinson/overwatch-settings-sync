@@ -1,1 +1,115 @@
-[{"name": "BAPTISTE", "sensitivity": "3.00", "filepath": "heroes\\baptiste.png"}, {"name": "ASHE", "sensitivity": "3.00", "filepath": "heroes\\ashe.png"}, {"name": "ANA", "sensitivity": "3.00", "filepath": "heroes\\ana.png"}, {"name": "BRIGITTE", "sensitivity": "5.00", "filepath": "heroes\\brigitte.png"}, {"name": "BASTION", "sensitivity": "3.00", "filepath": "heroes\\bastion.png"}, {"name": "DOOMFIST", "sensitivity": "5.00", "filepath": "heroes\\doomfist.png"}, {"name": "CASSIDY", "sensitivity": "3.45", "filepath": "heroes\\cassidy.png"}, {"name": "D.VA", "sensitivity": "5.00", "filepath": "heroes\\dva.png"}, {"name": "ECHO", "sensitivity": "3.85", "filepath": "heroes\\echo.png"}, {"name": "GENJI", "sensitivity": "3.00", "filepath": "heroes\\genji.png"}, {"name": "HANZO", "sensitivity": "3.00", "filepath": "heroes\\hanzo.png"}, {"name": "JUNKER QUEEN", "sensitivity": "4.00", "filepath": "heroes\\junkerqueen.png"}, {"name": "KIRIKO", "sensitivity": "3.00", "filepath": "heroes\\kiriko.png"}, {"name": "LIFEWEAVER", "sensitivity": "4.25", "filepath": "heroes\\lifeweaver.png"}, {"name": "JUNKRAT", "sensitivity": "5.00", "filepath": "heroes\\junkrat.png"}, {"name": "LUCIO", "sensitivity": "5.00", "filepath": "heroes\\lucio.png"}, {"name": "MEI", "sensitivity": "5.00", "filepath": "heroes\\mei.png"}, {"name": "MERCY", "sensitivity": "4.25", "filepath": "heroes\\mercy.png"}, {"name": "MOIRA", "sensitivity": "5.00", "filepath": "heroes\\moira.png"}, {"name": "ORISA", "sensitivity": "5.00", "filepath": "heroes\\orisa.png"}, {"name": "PHARAH", "sensitivity": "5.00", "filepath": "heroes\\pharah.png"}, {"name": "RAMATTRA", "sensitivity": "3.50", "filepath": "heroes\\ramattra.png"}, {"name": "REAPER", "sensitivity": "5.00", "filepath": "heroes\\reaper.png"}, {"name": "REINHARDT", "sensitivity": "5.00", "filepath": "heroes\\reinhardt.png"}, {"name": "ROADHOG", "sensitivity": "5.00", "filepath": "heroes\\roadhog.png"}, {"name": "SIGMA", "sensitivity": "4.00", "filepath": "heroes\\sigma.png"}, {"name": "SOLDIER", "sensitivity": "3.55", "filepath": "heroes\\soldier76.png"}, {"name": "SOJOURN", "sensitivity": "3.75", "filepath": "heroes\\sojourn.png"}, {"name": "SOMBRA", "sensitivity": "3.50", "filepath": "heroes\\sombra.png"}, {"name": "SYMMETRA", "sensitivity": "5.00", "filepath": "heroes\\symmetra.png"}, {"name": "TORBJORN", "sensitivity": "5.00", "filepath": "heroes\\tobjorn.png"}, {"name": "WIDOWMAKER", "sensitivity": "3.00", "filepath": "heroes\\widowmaker.png"}, {"name": "TRACER", "sensitivity": "3.00", "filepath": "heroes\\tracer.png"}, {"name": "WINSTON", "sensitivity": "5.00", "filepath": "heroes\\winston.png"}, {"name": "WRECKING BALL", "sensitivity": "5.00", "filepath": "heroes\\wreckingball.png"}, {"name": "ZARYA", "sensitivity": "3.65", "filepath": "heroes\\zarya.png"}, {"name": "ZENYATTA", "sensitivity": "3.00", "filepath": "heroes\\zenyatta.png"}]
+[
+	{ "name": "ANA", "sensitivity": "3.00", "filepath": "heroes\\ana.png" },
+	{
+		"name": "BAPTISTE",
+		"sensitivity": "3.00",
+		"filepath": "heroes\\baptiste.png"
+	},
+	{ "name": "ASHE", "sensitivity": "3.00", "filepath": "heroes\\ashe.png" },
+	{
+		"name": "BASTION",
+		"sensitivity": "3.00",
+		"filepath": "heroes\\bastion.png"
+	},
+	{
+		"name": "BRIGITTE",
+		"sensitivity": "5.00",
+		"filepath": "heroes\\brigitte.png"
+	},
+	{
+		"name": "DOOMFIST",
+		"sensitivity": "5.00",
+		"filepath": "heroes\\doomfist.png"
+	},
+	{
+		"name": "CASSIDY",
+		"sensitivity": "3.45",
+		"filepath": "heroes\\cassidy.png"
+	},
+	{ "name": "D.VA", "sensitivity": "5.00", "filepath": "heroes\\dva.png" },
+	{ "name": "ECHO", "sensitivity": "3.85", "filepath": "heroes\\echo.png" },
+	{ "name": "GENJI", "sensitivity": "3.00", "filepath": "heroes\\genji.png" },
+	{ "name": "HANZO", "sensitivity": "3.00", "filepath": "heroes\\hanzo.png" },
+	{ "name": "KIRIKO", "sensitivity": "3.00", "filepath": "heroes\\kiriko.png" },
+	{
+		"name": "JUNKER QUEEN",
+		"sensitivity": "4.00",
+		"filepath": "heroes\\junkerqueen.png"
+	},
+	{
+		"name": "LIFEWEAVER",
+		"sensitivity": "3.00",
+		"filepath": "heroes\\lifeweaver.png"
+	},
+	{
+		"name": "JUNKRAT",
+		"sensitivity": "5.00",
+		"filepath": "heroes\\junkrat.png"
+	},
+	{ "name": "LUCIO", "sensitivity": "5.00", "filepath": "heroes\\lucio.png" },
+	{ "name": "MEI", "sensitivity": "5.00", "filepath": "heroes\\mei.png" },
+	{ "name": "MERCY", "sensitivity": "4.25", "filepath": "heroes\\mercy.png" },
+	{ "name": "MOIRA", "sensitivity": "5.00", "filepath": "heroes\\moira.png" },
+	{ "name": "ORISA", "sensitivity": "5.00", "filepath": "heroes\\orisa.png" },
+	{ "name": "PHARAH", "sensitivity": "5.00", "filepath": "heroes\\pharah.png" },
+	{
+		"name": "RAMATTRA",
+		"sensitivity": "3.50",
+		"filepath": "heroes\\ramattra.png"
+	},
+	{ "name": "REAPER", "sensitivity": "3.75", "filepath": "heroes\\reaper.png" },
+	{
+		"name": "REINHARDT",
+		"sensitivity": "5.00",
+		"filepath": "heroes\\reinhardt.png"
+	},
+	{
+		"name": "ROADHOG",
+		"sensitivity": "5.00",
+		"filepath": "heroes\\roadhog.png"
+	},
+	{ "name": "SIGMA", "sensitivity": "4.00", "filepath": "heroes\\sigma.png" },
+	{
+		"name": "SOLDIER",
+		"sensitivity": "3.55",
+		"filepath": "heroes\\soldier76.png"
+	},
+	{
+		"name": "SOJOURN",
+		"sensitivity": "3.75",
+		"filepath": "heroes\\sojourn.png"
+	},
+	{ "name": "SOMBRA", "sensitivity": "3.50", "filepath": "heroes\\sombra.png" },
+	{
+		"name": "TORBJORN",
+		"sensitivity": "5.00",
+		"filepath": "heroes\\tobjorn.png"
+	},
+	{
+		"name": "SYMMETRA",
+		"sensitivity": "5.00",
+		"filepath": "heroes\\symmetra.png"
+	},
+	{ "name": "TRACER", "sensitivity": "3.00", "filepath": "heroes\\tracer.png" },
+	{
+		"name": "WIDOWMAKER",
+		"sensitivity": "3.00",
+		"filepath": "heroes\\widowmaker.png"
+	},
+	{
+		"name": "WINSTON",
+		"sensitivity": "5.00",
+		"filepath": "heroes\\winston.png"
+	},
+	{
+		"name": "WRECKING BALL",
+		"sensitivity": "5.00",
+		"filepath": "heroes\\wreckingball.png"
+	},
+	{ "name": "ZARYA", "sensitivity": "3.65", "filepath": "heroes\\zarya.png" },
+	{
+		"name": "ZENYATTA",
+		"sensitivity": "3.00",
+		"filepath": "heroes\\zenyatta.png"
+	}
+]
